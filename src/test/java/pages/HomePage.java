@@ -9,8 +9,9 @@ public class HomePage {
     public HomePage(){
         PageFactory.initElements(Driver.getDriver(),this);
     }
-    @FindBy (xpath = "   //*[@class='   current-menu-item ']")
+@FindBy (xpath = "   //*[@class='   current-menu-item ']")
     public WebElement homePageHomeyazisiElementi;
 
 
 }
+
